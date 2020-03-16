@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NameCard from './components/NameCard';
+import LikesButton from './components/LikesButton';
 
+const tags = ["读书🌆", "吉他🎸", "音乐🎵"]
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,10 +20,29 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
+
+      {/* 自定义名片 */}
+      <NameCard name="Elijah" number={17890567} isHuman tags={tags} />
+
+      <LikesButton />
     </div>
   );
 }
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className = "App">
+//         <header className= "App-header">
+//           <img src={logo} className="App-logo" alt="logo" />
+//           <h1 className="App-titile">Welcome to React</h1>
+//         </header>
+
+//       </div>
+//     )
+//   }
+// }
 
 export default App;
