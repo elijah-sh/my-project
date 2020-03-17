@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import NameCard from './components/NameCard';
 import LikesButton from './components/LikesButton';
+import DigitalClock from './components/DigitalClock';
 
 const tags = ["读书🌆", "吉他🎸", "音乐🎵"]
 function App() {
@@ -26,7 +27,11 @@ function App() {
       {/* 自定义名片 */}
       <NameCard name="Elijah" number={17890567} isHuman tags={tags} />
 
+      {/* 点赞👍 */}
       <LikesButton />
+      
+      {/* 时间显示👍 */}
+      <DigitalClock />
     </div>
   );
 }
