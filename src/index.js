@@ -7,8 +7,8 @@ import Welcome from './Welcome';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 // 两个参数
-ReactDOM.render(<Welcome />, document.getElementById('root'));
-//ReactDOM.render(<App />, document.getElementById('root'));
+//ReactDOM.render(<Welcome />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

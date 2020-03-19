@@ -1,5 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+官网提供的脚手架 my-project
+使用命令可直接获取该项目
+create-react-app my-project 
+内容介绍
+
+NameCard.js 个人名片 Props属性
+LikesButton.js 点赞 State状态
+DigitalClock.js 时钟 生命周期
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

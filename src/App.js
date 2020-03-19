@@ -4,12 +4,13 @@ import './App.css';
 import NameCard from './components/NameCard';
 import LikesButton from './components/LikesButton';
 import DigitalClock from './components/DigitalClock';
+import CommentBox from './components/CommentBox';
 
 const tags = ["读书🌆", "吉他🎸", "音乐🎵"]
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" hidden> 
         <img src={logo} className="App-logo" alt="logo" />
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -30,8 +31,12 @@ function App() {
       {/* 点赞👍 */}
       <LikesButton />
       
-      {/* 时间显示👍 */}
+      {/* 时间显示 */}
       <DigitalClock />
+
+      {/* 留言板 */}≈
+      <CommentBox />
+      
     </div>
   );
 }
