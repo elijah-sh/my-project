@@ -1,19 +1,30 @@
+以上内容均参考慕课网公开课视频 https://www.imooc.com/learn/1045 基于实例的 React16 傻瓜课程
+
+
+#### 主要技术内容
+
+- 官网提供的脚手架 my-project
+- 使用命令可直接获取该项目
+- create-react-app my-project 
+
+
+
+#### 内容介绍
+
+- NameCard.js 个人名片 Props属性
+- LikesButton.js 点赞 State状态
+- DigitalClock.js 时钟 生命周期
+- CommentBox.js 留言板 输入框
+- CommentList.js 留言列表
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-官网提供的脚手架 my-project
-使用命令可直接获取该项目
-create-react-app my-project 
-内容介绍
 
-NameCard.js 个人名片 Props属性
-LikesButton.js 点赞 State状态
-DigitalClock.js 时钟 生命周期
-
-
-
-
-
-
+## Available Scripts
 
 
 
