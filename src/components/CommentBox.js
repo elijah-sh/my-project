@@ -18,10 +18,14 @@ class CommentBox extends React.Component {
     }
 
     handleSubmit(event) {
-        alert(this.textInput.value)
+        //alert(this.textInput.value)
         //   alert(this.state.value)  onChange
+        // 外部传入数据
+        this.props.onAddcomment(this.textInput.value)
         // 重新提交之后页面跳转
         event.preventDefault()
+        //留言成功之后，清除留言框数据
+        
     }
 
     render() {
@@ -33,12 +37,12 @@ class CommentBox extends React.Component {
                      placeholder="请输入内容" 
                     //  onChange={this.handleChange} value={this.state.value}
                     ref={(textValue) => this.textInput = textValue}
-                     
                       />
                 </div>
                 <button type="submit" className="btn btn-primary">
                     留言
                 </button>
+                <p>已有{this.props.commentsLength}条评论</p>
 
             </form>
 

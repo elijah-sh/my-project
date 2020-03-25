@@ -5,6 +5,7 @@ import NameCard from './components/NameCard';
 import LikesButton from './components/LikesButton';
 import DigitalClock from './components/DigitalClock';
 import CommentBox from './components/CommentBox';
+import CommentList from './components/CommentList';
 
 const tags = ["读书🌆", "吉他🎸", "音乐🎵"]
 function App() {
@@ -34,7 +35,10 @@ function App() {
       {/* 时间显示 */}
       <DigitalClock />
 
-      {/* 留言板 */}≈
+      {/* 评论列表 */}
+      <CommentList comments={this.state.comments}/>
+
+      {/* 留言板 */}
       <CommentBox />
       
     </div>
