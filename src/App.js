@@ -36,7 +36,7 @@ function App() {
       <DigitalClock />
 
       {/* 评论列表 */}
-      <CommentList comments={this.state.comments}/>
+      {/* <CommentList comments={this.state.comments}/> */}
 
       {/* 留言板 */}
       <CommentBox />
