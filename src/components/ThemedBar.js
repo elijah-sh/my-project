@@ -12,9 +12,7 @@ const ThemeBar = () => {
                             <button className={theme.classNames}>样式按钮🔘</button>
                         </div>
                     )
-                }
-            
-           
+                }           
             }
         </ThemeContext.Consumer>
         

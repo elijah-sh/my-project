@@ -5,7 +5,6 @@ import CommentBox from './components/CommentBox';
 import CommentList from './components/CommentList';
 import ThemeContext from './theme-context';
 import ThemeBar from './components/ThemedBar';
-import {Provider} from "./context/themeContext";
 
 const themes = {
     light: {
